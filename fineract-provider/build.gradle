@@ -200,7 +200,7 @@ if (!(project.hasProperty('env') && project.getProperty('env') == 'dev')) {
 // https://docs.groovy-lang.org/latest/html/api/groovy/sql/Sql.html
 import groovy.sql.Sql
 
-project.ext.mysqlUser='root'
+project.ext.mysqlUser='dbuser'
 project.ext.mysqlPassword='mypassword'
 
 configurations {
